@@ -7,7 +7,7 @@ function HomePage() {
   return (<div>
     <h1>Welcome to Next.js!</h1>
     <p>
-      <Link href="/users">
+      <Link href="/users/clientside">
         <a>Users</a>
       </Link>
     </p>
