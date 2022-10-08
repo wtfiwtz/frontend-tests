@@ -11,8 +11,11 @@ function Users() {
     return (<div>
         <h1>You are now user list page</h1>
         <ul>
-            <li>{data[0].name}</li>
-            <li>{data[1].name}</li>
+            {
+                data.map((x, i) => {
+                    return <li key={i}>{x.name}</li>
+                })
+            }
         </ul>
     </div>)
 }
