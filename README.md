@@ -44,8 +44,9 @@ You can also use `--ts` for TypeScript support
 ```
 yarn install
 yarn add swr
-yarn add -D @playwright/test typescript
+yarn add -D @playwright/test playwright typescript
 npx playwright install
+yarn add -D @cucumber/cucumber @cucumber/pretty-formatter
 ```
 
 ... then either:
@@ -53,4 +54,5 @@ npx playwright install
 ```
 yarn dev
 npx playwright test
+yarn test:e2e tests/acceptance/features/users.feature
 ```
