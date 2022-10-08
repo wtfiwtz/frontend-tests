@@ -44,5 +44,13 @@ You can also use `--ts` for TypeScript support
 ```
 yarn install
 yarn add swr
+yarn add -D @playwright/test typescript
+npx playwright install
+```
+
+... then either:
+
+```
 yarn dev
+npx playwright test
 ```
