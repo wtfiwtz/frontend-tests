@@ -1,4 +1,5 @@
 import { PlaywrightTestConfig, devices } from '@playwright/test'
+// @ts-ignore
 import path from 'path'
 
 // Use process.env.PORT by default and fallback to port 3000

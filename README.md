@@ -47,6 +47,7 @@ yarn add swr
 yarn add -D @playwright/test playwright typescript
 npx playwright install
 yarn add -D @cucumber/cucumber @cucumber/pretty-formatter
+yarn add -D @testing-library/jest-dom @testing-library/react @testing-library/user-event jest jest-environment-jsdom eslint-plugin-testing-library
 ```
 
 ... then either:
@@ -55,4 +56,6 @@ yarn add -D @cucumber/cucumber @cucumber/pretty-formatter
 yarn dev
 npx playwright test
 yarn test:e2e tests/acceptance/features/users.feature
+yarn test
+yarn test:ci
 ```
